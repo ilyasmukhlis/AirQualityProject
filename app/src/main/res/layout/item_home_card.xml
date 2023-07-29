@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/dp_10"
+    app:cardElevation="@dimen/dp_4"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/colorCard"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_24">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/firstRowConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginBottom="@dimen/dp_12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/circleConstraintLayout"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+
+                android:background="@drawable/ic_circle_shape"
+                android:backgroundTint="@color/colorFillOrange"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/aqiIndicationTextView"
+                    style="@style/RobotoLight28sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_8"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="104" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/sensorTypeTextView"
+                style="@style/RobotoRegular16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Outdoor" />
+
+            <TextView
+                android:id="@+id/aqiStatusTextView"
+                style="@style/RobotoMedium24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_24"
+                android:layout_marginTop="@dimen/dp_16"
+                app:layout_constraintStart_toEndOf="@id/circleConstraintLayout"
+                app:layout_constraintTop_toBottomOf="@id/sensorTypeTextView"
+                tools:text="Average" />
+
+            <TextView
+                android:id="@+id/temperatureTextView"
+                style="@style/RobotoMedium16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:drawablePadding="@dimen/dp_8"
+                app:drawableStartCompat="@drawable/ic_weather"
+                app:layout_constraintEnd_toStartOf="@id/humidityTextView"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="27°C" />
+
+            <TextView
+                android:id="@+id/humidityTextView"
+                style="@style/RobotoMedium16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:drawablePadding="@dimen/dp_8"
+                app:drawableStartCompat="@drawable/ic_humidity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="43%" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/secondRowConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginBottom="@dimen/dp_16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstRowConstraintLayout">
+
+            <TextView
+                android:id="@+id/aqiTextView"
+                style="@style/RobotoMedium16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_16"
+                android:text="@string/aqi"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dateTextView"
+                style="@style/RobotoRegular16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="27.05.2022 13:44"
+                android:drawablePadding="@dimen/dp_8"
+                app:layout_constraintStart_toEndOf="@id/aqiTextView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="30dp"
+                app:drawableStartCompat="@drawable/ic_calendar" />
+
+            <TextView
+                android:id="@+id/locationTextView"
+                style="@style/RobotoRegular16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="1.52km"
+                android:drawablePadding="@dimen/dp_8"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="30dp"
+                app:drawableStartCompat="@drawable/ic_location" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

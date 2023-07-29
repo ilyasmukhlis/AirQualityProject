@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFillBackground">
+
+    <Toolbar
+        android:id="@+id/toolbarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:navigationIcon="@drawable/ic_close"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbarIdTextView"
+            style="@style/RobotoRegular24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="@dimen/dp_8"
+            app:drawableStartCompat="@drawable/ic_device"
+            tools:text="101" />
+    </Toolbar>
+
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        android:id="@+id/toggleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginHorizontal="@dimen/dp_100"
+        android:layout_marginTop="@dimen/dp_16"
+        app:alignContent="center"
+        app:alignItems="center"
+        app:justifyContent="center"
+        app:layout_constraintTop_toBottomOf="@id/toolbarView"
+        app:toggle_requiredAmount="1"
+        app:toggle_selectAnimation="horizontal_slide"
+        app:toggle_selectableAmount="1">
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/hourlyButton"
+            android:layout_width="@dimen/dp_120"
+            android:layout_height="@dimen/dp_38"
+            android:text="@string/hourly"
+            app:layout_flexGrow="1"
+            app:toggle_backgroundColor="@color/whiteStable"
+            app:toggle_btnCornerRadius="@dimen/dp_8"
+            app:toggle_selectedBackgroundColor="@color/colorFill1Stable"
+            app:toggle_selectedTextColor="@color/whiteStable"
+            app:toggle_textColor="@color/colorFill1Stable"
+
+            />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/dailyButton"
+            android:layout_width="@dimen/dp_120"
+            android:layout_height="@dimen/dp_38"
+            android:text="@string/daily"
+            app:layout_flexGrow="1"
+            app:toggle_backgroundColor="@color/whiteStable"
+            app:toggle_btnCornerRadius="@dimen/dp_8"
+            app:toggle_selectedBackgroundColor="@color/colorFill1Stable"
+            app:toggle_selectedTextColor="@color/whiteStable"
+            app:toggle_textColor="@color/colorFill1Stable" />
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pollutantsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/toggleGroup" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/dp_16"
+        app:layout_constraintTop_toBottomOf="@id/pollutantsRecyclerView" />
+
+    <Button
+        android:id="@+id/pickDateButton"
+        style="@style/RobotoRegular16sp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:backgroundTint="@color/whiteStable"
+        android:textAllCaps="false"
+        android:textColor="@color/colorFill1Stable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barChart"
+        app:rippleColor="@color/colorGray"
+        android:text="@string/pick_another_date" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

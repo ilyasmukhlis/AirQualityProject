@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MarkerText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/whiteStable</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RobotoMedium16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoMedium20sp">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoMedium24sp">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoMedium32sp">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoRegular16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoRegular20sp">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoRegular24sp">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoRegular28sp">
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoRegular72sp">
+        <item name="android:textSize">@dimen/sp_72</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorFill1</item>
+        <item name="itemTextColor">@color/colorFill1</item>
+    </style>
+
+    <style name="RobotoLight28sp">
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">@color/whiteStable</item>
+    </style>
+
+    <style name="RobotoLight20sp">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">@color/whiteStable</item>
+    </style>
+    <style name="RobotoLight16sp">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">@color/whiteStable</item>
+    </style>
+
+    <style name="RobotoLight12sp">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">@color/whiteStable</item>
+    </style>
+
+    <style name="RobotoCondensedRegular20sp">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:textColor">@color/whiteStable</item>
+    </style>
+
+    <style name="WindowAnimationFadeInOut">
+        <item name="android:windowEnterAnimation">@anim/window_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/window_fade_out</item>
+    </style>
+
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

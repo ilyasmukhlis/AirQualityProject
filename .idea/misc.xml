@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/drawable-v24/marker.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/bg_radius_12_colorfill_1.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/bg_top_rounded_radius_12_colorfill_.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/bg_top_rounded_radius_12_colorfill_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/button_background_color.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/home_icon.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2745" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_calendar.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_card_radius_10.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_circle_shape.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_clock.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_device.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_empty.xml" value="0.1165" />
+        <entry key="app/src/main/res/drawable/ic_forward.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_home_unselected.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_humidity.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_outline_copyright_24.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_outline_person_24.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_pink_outline.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_rectangle_radius_15.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_stats.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_toggle_widget_background.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_weather.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/marker.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/marker_green.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/marker_orange.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/marker_red.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/marker_salad.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/marker_yellow.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/window_fade_out.xml" value="0.375" />
+        <entry key="app/src/main/res/font/roboto_condensed_regular.xml" value="0.4123076923076923" />
+        <entry key="app/src/main/res/font/roboto_light.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.20833333333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31742243436754175" />
+        <entry key="app/src/main/res/layout/add_personal_device_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/calendar_cell.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/change_passwd_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_calendar.xml" value="0.6585937500000001" />
+        <entry key="app/src/main/res/layout/dialog_detailed_device_info.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_detailed_useful_info.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/dialog_map_particle_indications.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/dialog_map_particles_indications.xml" value="0.32839506172839505" />
+        <entry key="app/src/main/res/layout/dialog_month_calendar.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_statistics.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_google_maps.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_login2.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/fragment_useful_info.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/item_empty_view.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_home_card.xml" value="0.32839506172839505" />
+        <entry key="app/src/main/res/layout/item_info_card.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/layout_home_header.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/layout_other_indications.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/layout_particle_indications.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/layout/layout_settings.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/month_cell.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/pollutants_item.xml" value="0.3890625" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3885416666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2155" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1405" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

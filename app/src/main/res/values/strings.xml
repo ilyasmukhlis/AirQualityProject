@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">AirQuality</string>
+    <string name="aqi">AQI</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Maps</string>
+    <string name="title_useful">Useful</string>
+    <string name="title_useful_info">Useful Information</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="indoor">Indoor</string>
+    <string name="hourly">Hourly</string>
+    <string name="daily">Daily</string>
+    <string name="pick_another_date">Pick Another Date</string>
+
+    <string name="perfect">Perfect!</string>
+    <string name="good">Good</string>
+    <string name="moderate">Moderate</string>
+    <string name="bad">Oh, bad…</string>
+    <string name="very_bad">Very unhealthy</string>
+    <string name="hazardous">Hazardous</string>
+    <string name="copyright">Powered by AQI Project, 2020</string>
+
+    <string name="details">Details</string>
+    <string name="zero_range">0</string>
+    <string name="five_hundred_range">500</string>
+    <string name="start_entering_device_id">Start entering Device ID</string>
+    <string name="device_ID">Device ID</string>
+
+    <string name="lorem_ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="registration">Registration</string>
+    <string name="change_passwd">Change password</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="ui_mode">UI Mode:</string>
+    <string name="system">System</string>
+    <string name="day">Light</string>
+    <string name="night">Dark</string>
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="nearest_to_you">Nearest to you</string>
+    <string name="your_devices">Personal</string>
+    <string name="other">Other</string>
+    <string name="particles">Particles</string>
+
+    <string name="pm2_5" translatable="false">PM2.5</string>
+    <string name="ch3" translatable="false">CH3</string>
+    <string name="o3" translatable="false">O3</string>
+    <string name="no2" translatable="false">NO2</string>
+    <string name="h2s" translatable="false">H2S</string>
+    <string name="co" translatable="false">CO</string>
+    <string name="language">Language:</string>
+    <string name="kaz">Kaz</string>
+    <string name="ru">Rus</string>
+    <string name="eng">Eng</string>
+    <string name="search_for_others">Search for others</string>
+
+    <string name="temperature_s" translatable="false">%s°C</string>
+    <string name="humidity_s" translatable="false">%d%</string>
+    <string name="or">Or</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone">Phone</string>
+    <string name="organisation">Organisation</string>
+    <string name="add_device">Add Device</string>
+    <string name="add">add</string>
+    <string name="save">Save</string>
+    <string name="new_password">New Password</string>
+    <string name="no_data_to_display">Empty</string>
+
+</resources>

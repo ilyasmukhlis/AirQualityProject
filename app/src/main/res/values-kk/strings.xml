@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">AirQuality</string>
+    <string name="aqi">AQI</string>
+    <string name="title_home">Басты</string>
+    <string name="title_map">Карта</string>
+    <string name="title_useful">Пайдалы</string>
+    <string name="title_useful_info">Пайдалы Ақпарат</string>
+    <string name="today">Бүгін</string>
+    <string name="yesterday">Кеше</string>
+    <string name="outdoor">Сыртқы</string>
+    <string name="indoor">Ішкі</string>
+    <string name="hourly">Сағаттық</string>
+    <string name="daily">Күнделікті</string>
+    <string name="pick_another_date">Басқа күн таңдау</string>
+
+    <string name="perfect">Керемет!</string>
+    <string name="good">Жақсы</string>
+    <string name="moderate">Орташа</string>
+    <string name="bad">Жаман</string>
+    <string name="very_bad">Өте зиянды</string>
+    <string name="hazardous">Қауіпті</string>
+    <string name="copyright">AQI Project негізінде жасалған, 2020</string>
+
+    <string name="details">Мәліметтер</string>
+    <string name="zero_range">0</string>
+    <string name="five_hundred_range">500</string>
+    <string name="start_entering_device_id">Құрылғы ID-ін теруді бастаңыз</string>
+    <string name="device_ID">Құрылғы ID-і</string>
+
+    <string name="lorem_ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Пошта</string>
+    <string name="prompt_password">Құпиясөз</string>
+    <string name="action_sign_in">Кіру немесе Тіркелу</string>
+    <string name="action_sign_in_short">Кіру</string>
+    <string name="action_register_short">Тіркелу</string>
+    <string name="welcome">"Қош келдіңіз!"</string>
+    <string name="invalid_username">Қате пайдаланушы аты</string>
+    <string name="invalid_password">Құпиясөз >5 символдан тұруы қажет</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="settings">Баптаулар</string>
+    <string name="ui_mode">Рәсімдеу:</string>
+    <string name="system">Жүйелік</string>
+    <string name="day">Ашық</string>
+    <string name="night">Күңгірт</string>
+
+    <string name="sunday">ЖС</string>
+    <string name="monday">ДС</string>
+    <string name="tuesday">СЕЙС</string>
+    <string name="wednesday">СӘРС</string>
+    <string name="thursday">БС</string>
+    <string name="friday">ЖМ</string>
+    <string name="saturday">СБ</string>
+    <string name="nearest_to_you">Сізге жақын</string>
+    <string name="your_devices">Жеке</string>
+    <string name="other">Басқа</string>
+    <string name="particles">Бөлшектер</string>
+    <string name="language">Тіл:</string>
+    <string name="kaz">Қаз</string>
+    <string name="ru">Орыс</string>
+    <string name="eng">Ағыл</string>
+    <string name="search_for_others">Басқаларын іздеңіз</string>
+    <string name="or">Немесе</string>
+    <string name="registration">Тіркелу</string>
+    <string name="change_passwd">Құпиясөз өзгерту</string>
+    <string name="name">Аты</string>
+    <string name="surname">Тегі</string>
+    <string name="phone">Нөмір</string>
+    <string name="organisation">Ұйым</string>
+    <string name="add_device">Құрылғы қосу</string>
+    <string name="add">Қосу</string>
+    <string name="save">Сақтау</string>
+    <string name="new_password">Жаңа құпиясөз</string>
+    <string name="no_data_to_display">Бос</string>
+</resources>

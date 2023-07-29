@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFillBackground">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_16"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/personalAreaLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/dp_16"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/RobotoMedium32sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/your_devices"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/addDeviceImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/dp_8"
+                            android:layout_toStartOf="@+id/loginImageView"
+                            android:padding="@dimen/dp_8"
+                            android:src="@drawable/ic_baseline_add_24" />
+
+                        <ImageView
+                            android:id="@+id/loginImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/dp_8"
+                            android:layout_toStartOf="@+id/settingsImageView"
+                            android:padding="@dimen/dp_8"
+                            android:src="@drawable/ic_baseline_person_24" />
+
+                        <ImageView
+                            android:id="@+id/settingsImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/dp_4"
+                            android:padding="@dimen/dp_8"
+                            android:src="@drawable/ic_settings_icon" />
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/yourDevsRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:orientation="vertical"
+                        android:overScrollMode="never"
+                        android:nestedScrollingEnabled="false"
+                        android:scrollbars="none"
+                        tools:itemCount="1"
+                        tools:listitem="@layout/item_home_card" />
+
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/homeHeaderLayout"
+                    layout="@layout/layout_home_header"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/nearestSensorsRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    android:nestedScrollingEnabled="false"
+                    android:scrollbars="none"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/item_home_card" />
+
+                <TextView
+                    style="@style/RobotoMedium32sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:text="@string/search_for_others" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:background="@drawable/ic_rectangle_radius_15"
+                    android:drawableStart="@drawable/ic_search"
+                    android:drawablePadding="@dimen/dp_8"
+                    android:hint="@string/start_entering_device_id"
+                    android:padding="@dimen/dp_8"
+                    android:textColorHint="@color/colorHint" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/allSensorsRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_16"
+                    android:layout_marginBottom="@dimen/dp_56"
+                    android:orientation="vertical"
+                    android:nestedScrollingEnabled="false"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/item_home_card" />
+            </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

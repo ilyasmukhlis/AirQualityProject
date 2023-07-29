@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorCard"
+    app:cardCornerRadius="@dimen/dp_20"
+    app:cardElevation="@dimen/dp_4"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/RobotoRegular20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="@string/particles" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:alignmentMode="alignBounds"
+            android:columnCount="3"
+            android:paddingHorizontal="@dimen/dp_24">
+
+            <LinearLayout
+                android:id="@+id/pm25Container"
+                android:layout_width="@dimen/dp_72"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="@dimen/dp_52"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoMedium16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pm2_5"
+                    android:textColor="@color/colorText1" />
+
+                <TextView
+                    android:id="@+id/pm25IndicationTextView"
+                    style="@style/RobotoCondensedRegular20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText2"
+                    tools:text="24.0" />
+
+                <ProgressBar
+                    android:id="@+id/pm25ProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:max="250"
+                    android:progress="24"
+                    android:progressTint="@color/colorFillGreen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ch3Container"
+                android:layout_width="@dimen/dp_72"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="@dimen/dp_52"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoMedium16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ch3"
+                    android:textColor="@color/colorText1" />
+
+                <TextView
+                    android:id="@+id/ch3IndicationTextView"
+                    style="@style/RobotoCondensedRegular20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText2"
+                    tools:text="70.0" />
+
+                <ProgressBar
+                    android:id="@+id/ch3ProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:max="250"
+                    android:progress="70"
+                    android:progressTint="@color/colorFillSalad" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/o3Container"
+                android:layout_width="@dimen/dp_72"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoMedium16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/o3"
+                    android:textColor="@color/colorText1" />
+
+                <TextView
+                    android:id="@+id/o3IndicationTextView"
+                    style="@style/RobotoCondensedRegular20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText2"
+                    tools:text="95.0" />
+
+                <ProgressBar
+                    android:id="@+id/o3ProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:max="250"
+                    android:progress="95"
+                    android:progressTint="@color/colorFillYellow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/no2Container"
+                android:layout_width="@dimen/dp_72"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="@dimen/dp_52"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoMedium16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no2"
+                    android:textColor="@color/colorText1" />
+
+                <TextView
+                    android:id="@+id/no2IndicationTextView"
+                    style="@style/RobotoCondensedRegular20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText2"
+                    tools:text="110.0" />
+
+                <ProgressBar
+                    android:id="@+id/no2ProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:max="250"
+                    android:progress="110"
+                    android:progressTint="@color/colorFillYellow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/h2sContainer"
+                android:layout_width="@dimen/dp_72"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="@dimen/dp_52"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoMedium16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/h2s"
+                    android:textColor="@color/colorText1" />
+
+                <TextView
+                    android:id="@+id/h2sIndicationTextView"
+                    style="@style/RobotoCondensedRegular20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText2"
+                    tools:text="140.0" />
+
+                <ProgressBar
+                    android:id="@+id/h2sProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:max="250"
+                    android:progress="140"
+                    android:progressTint="@color/colorFillOrange" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/coContainer"
+                android:layout_width="@dimen/dp_72"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoMedium16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/co"
+                    android:textColor="@color/colorText1" />
+
+                <TextView
+                    android:id="@+id/coIndicationTextView"
+                    style="@style/RobotoCondensedRegular20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText2"
+                    tools:text="180.0" />
+
+                <ProgressBar
+                    android:id="@+id/coProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:max="250"
+                    android:progress="180"
+                    android:progressTint="@color/colorFillRed" />
+            </LinearLayout>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

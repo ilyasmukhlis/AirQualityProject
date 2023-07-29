@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">AirQuality</string>
+    <string name="aqi">AQI</string>
+    <string name="title_home">Главная</string>
+    <string name="title_map">Карта</string>
+    <string name="title_useful">Полезное</string>
+    <string name="title_useful_info">Полезная информация</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="outdoor">Наружний</string>
+    <string name="indoor">Внутренний</string>
+    <string name="hourly">Почасовое</string>
+    <string name="daily">Ежедневное</string>
+    <string name="pick_another_date">Выбрать другую дату</string>
+
+    <string name="perfect">Прекрасно!</string>
+    <string name="good">Хорошо</string>
+    <string name="moderate">Средне</string>
+    <string name="bad">Плохо</string>
+    <string name="very_bad">Небезопасно</string>
+    <string name="hazardous">Токсично</string>
+    <string name="copyright">При поддержке проекта AQI, 2020</string>
+
+    <string name="details">Детали</string>
+    <string name="zero_range">0</string>
+    <string name="five_hundred_range">500</string>
+    <string name="start_entering_device_id">Введите ID устройства</string>
+    <string name="device_ID">ID устройства</string>
+
+    <string name="lorem_ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти или Зарегистрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="action_register_short">Регистрация</string>
+    <string name="welcome">"Добро Пожаловать!"</string>
+    <string name="invalid_username">Неверный логин</string>
+    <string name="invalid_password">Пароль должен быть >5 симоволов</string>
+    <string name="login_failed">"Не удалось войти"</string>
+    <string name="settings">Настройки</string>
+    <string name="ui_mode">Тема:</string>
+    <string name="system">Системная</string>
+    <string name="day">Светлая</string>
+    <string name="night">Темная</string>
+
+    <string name="sunday">ВС</string>
+    <string name="monday">ПН</string>
+    <string name="tuesday">ВТ</string>
+    <string name="wednesday">СР</string>
+    <string name="thursday">ЧТ</string>
+    <string name="friday">ПТ</string>
+    <string name="saturday">СБ</string>
+    <string name="nearest_to_you">Ближе к Вам</string>
+    <string name="your_devices">Личные</string>
+    <string name="other">Другое</string>
+    <string name="particles">Частицы</string>
+    <string name="language">Язык:</string>
+    <string name="kaz">Каз</string>
+    <string name="ru">Рус</string>
+    <string name="eng">Англ</string>
+    <string name="search_for_others">Ищите другие</string>
+    <string name="or">Или</string>
+    <string name="registration">Регистрация</string>
+    <string name="change_passwd">Изменить пароль</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="phone">Номер</string>
+    <string name="organisation">Организация</string>
+    <string name="add_device">Добавить устройство</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="no_data_to_display">Пусто</string>
+</resources>

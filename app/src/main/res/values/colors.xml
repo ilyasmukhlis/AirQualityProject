@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Color Scheme -->
+    <color name="colorFill1">#2A3857</color>
+    <color name="colorFill1Reverse">#D9D9D9</color>
+    <color name="colorFill2">#F7F7F7</color>
+    <color name="colorFill3">#425377</color>
+
+    <color name="colorCard">#FDFDFD</color>
+    <color name="whiteStable">#FFFFFF</color>
+    <color name="blackStable">#000000</color>
+    <color name="colorFill1Stable">#2A3857</color>
+    <color name="colorHint">#602A3857</color>
+
+    <color name="colorSplashScreen">#FFFFFF</color>
+
+
+    <color name="colorText1">#8F8F8F</color>
+    <color name="colorText2">#636363</color>
+
+
+    <color name="colorGray">#6E7E82</color>
+    <color name="colorFillRed">#E8738B</color>
+    <color name="colorFillRedOrange">#F49580</color>
+    <color name="colorFillOrange">#FFB674</color>
+    <color name="colorFillYellow">#FFDE59</color>
+    <color name="colorFillSalad">#93E8A6</color>
+    <color name="colorFillGreen">#5BD58C</color>
+
+    <color name="colorFillRedAlpha40">#66E8738B</color>
+    <color name="colorFillOrangeAlpha40">#66FFB674</color>
+    <color name="colorFillYellowAlpha40">#66FFDE59</color>
+    <color name="colorFillSaladAlpha40">#6693E8A6</color>
+    <color name="colorFillGreenAlpha40">#665BD58C</color>
+
+    <color name="colorFillBackground">#F7F7F7</color>
+    <color name="colorNavBar">#ECEFF0</color>
+</resources>
